@@ -36,6 +36,8 @@ namespace PdfDowland.Controllers
         {
             return View();
         }
+        //Burada pdf yapılan actionn result sayfası aşağıda aynı isimle olmak zorunda
+        //file 1 olan kısım name leri eşit olmak zounda
         [HttpPost]
         public async Task<IActionResult> Pdf(Pdf p, IFormFile file1)
         {
