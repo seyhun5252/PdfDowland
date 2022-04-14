@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Pdf";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form asp-controller="Home" asp-action="Pdf" class="contact-form contact-grid" enctype="multipart/form-data">
+
+    <div class="form-field subject">
+        <label class="label">Abstract Submision*</label>
+        <input type="file" name="file1" id="">
+    </div>
+
+    <br>
+
+    <div class="submit-button">
+        <button id="submit-btn" class="btn">submit</button>
+    </div>
+
+</form>
